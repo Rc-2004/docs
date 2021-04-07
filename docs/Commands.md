@@ -29,99 +29,99 @@ title: Commands
     - **Usage:** `!playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
-- **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
-    - **Usage:** `!search <query>`
+- **` uma música através de sua consulta e retorna o top 10 resultados.
+    - **Usage:** `!search <nome da música>`
     - **Alias:** `find`
 ---
-- **`!soundcloud`** - Plays a song from [SoundCloud](https://www.soundcloud.com)  with the given name/url
-    - **Usage:** `!soundcloud <link/query>`
+- **`!soundcloud`** - Toca uma música de [SoundCloud](https://www.soundcloud.com)  com o nome/url 
+    - **Usage:** `!soundcloud <link/música>`
     - **Alias:** `sc`
 ---
-- **`!nowplaying`** - Shows what song Rythm is currently playing.
+- **`!nowplaying`** - Mostra que música Rythm está tocando atualmente.
     - **Alias:** `np`
 ---
-- **`!grab`** - Saves the current playing song to your Direct Messages.
+- **`!grab`** - Salva a música atual de reprodução para suas Mensagens Diretas.
     - **Aliases:** `save`, `yoink`
 ---
-- **`!seek`** - Seeks to a certain point in the current track.
-    - **Usage:** `!seek <time>`
+- **`!seek`** - Busca até um certo ponto na faixa atual.
+    - **Usage:** `!seek <tempo>`
 ---
-- **`!rewind`** - Rewinds by a certain amount of time in the current track.
-    - **Usage:** `!rewind <time>`
+- **`!rewind`** - Rebobina por um certo período de tempo na faixa atual.
+    - **Usage:** `!rewind <tempo>`
     - **Alias:** `rwd`
 ---
-- **`!forward`** - Forwards by a certain amount of time in the current track.
-    - **Usage:** `!forward <time>`
+- **`!forward`** - Atacantes por um certo período de tempo na pista atual.
+    - **Usage:** `!forward <Hora>`
     - **Alias:** `fwd`
 ---
-- **`!replay`** - Resets the progress of the current song.
+- **`!replay`** - Redefine o progresso da música atual.
 ---
-- **`!loop`** - Toggles looping for the current playing song.
+- **`!loop`** - Alterna looping para a música de reprodução atual.
     - **Alias:** `repeat`
 ---
-- **`!voteskip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
+- **`!voteskip`** - Vota para pular a música atual. **[Mais informações](/voteskip#quantos votos-são-necessário-para-uma-canção-a-ser-voto-pulou)**
     - **Alias:** `skip`, `next`, `s`
 ---
-- **`!forceskip`** - Skips the current playing song immediately.
-    - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
+- **`!forceskip`** - Ignora a música atual tocando imediatamente.
+    - **Outros usos:** `!forceskip <número>` - Pule uma certa quantidade de músicas.
     - **Aliases:** `fs`, `fskip`
-    - **Note:** `DJ` role/`Manage Channels` permission required.
+    - **nota:** `DJ` role/`Gerenciar canais` permissão necessária.
 ---
-- **`!pause`** - Pauses the current playing track.
+- **`!pause`** - Pausa a faixa de reprodução atual.
     - **Alias:** `stop`
 ---
-- **`!resume`** - Resumes paused music.
+- **`!resume`** - Retoma música pausada.
     - **Aliases:** `re`, `res`, `continue`
 ---
-- **`!lyrics`** - Gets the lyrics of the current playing song.
-    - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
+- **`!lyrics`** - Recebe a letra da música atual.
+    - **Outros Usos:** `!lyrics <nome da canção>` - Recebe a letra da canção mencionada.
     - **Aliases:** `l`, `ly`
 ---
-- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+- **`!disconnect`** - Desconecta o bot do canal de voz em que está.
     - **Aliases:** `dc`, `leave`, `dis`
 ---
 
 ## Queue
 ---
-- **`!queue`** - Shows the first page of the queue.
-    - **Other Usage:** `!queue <page>`: Shows the specified page number.
+- **`!queue`** - Mostra a primeira página da fila.
+    - **Outros usos:** `!queue <página>`: Mostra o número da página especificado.
     - **Alias:** `q`
 ---
-- **`!loopqueue`** - Toggles looping for the whole queue.
+- **`!loopqueue`** - Alternação looping para toda a fila.
     - **Aliases:** `qloop`, `lq`, `queueloop`
 ---
-- **`!move`** - Moves a certain song to a chosen position in the queue.
-    - **Usage:** `!move <old positon> <new position>`
+- **`!move`** - Move uma determinada música para uma posição escolhida na fila.
+    - **uso:** `!move <posição antiga > <nova posição>`
     - **Aliases:** `m`, `mv`
-    - **Note:** If the `<new position>` is not specified, the song will be moved to the first position of the queue
+    - **nota:** Se a `<nova posição>` não está especificado, a música será movida para a primeira posição da fila
 ---
-- **`!skipto`** - Skips to a certain position in the queue.
-    - **Usage:** `!skipto <position>`
+- **`!skipto`** - Pula para uma certa posição na fila.
+    - **uso:** `!skipto <posição>`
     - **Alias:** `st`
 ---
-- **`!shuffle`** -  Shuffles the entire queue.
+- **`!shuffle`** -  Embaralha toda a fila.
     - **Alias:** `random`
 ---
-- **`!remove`** - Removes a certain entry from the queue.
-    - **Usage:** `!remove <numbers>`
+- **`!remove`** - Remove uma determinada entrada da fila.
+    - **uso:** `!remove <Números>`
     - **Alias:** `rm`
 ---
-- **`!clear`** - Clears the whole queue.
-    - **Other Usage:** `!clear <@user>` - Clears all songs requested by the mentioned user.
+- **`!clear`** - Limpa toda a fila.
+    - **Outros Usos:** `!clear <@Usuario>` - Limpa todas as músicas solicitadas pelo usuário mencionado.
     - **Alias:** `cl`
 ---
-- **`!leavecleanup`** - Removes absent user's songs from the queue.
+- **`!leavecleanup`** - Remove as músicas do usuário ausente da fila.
     - **Alias:** `lc`
 ---
-- **`!removedupes`** - Removes duplicate songs from the queue.
+- **`!removedupes`** - Remove músicas duplicadas da fila.
     - **Aliases:** `rmd`, `rd`, `drm`
 ---
 
 ## koodos
 ---
-- **`!sotd`** - Shows the song of the day. [More Info](/koodos#song-of-the-day)
+- **`!sotd`** - Mostra a música do dia. [More Info](/koodos#song-of-the-day)
 ---
-- **`!playsotd`** - Queue the song of the day.
+- **`!playsotd`** - Fila a música do dia.
     - **Alias:** `psotd`
 ---
 - **`!sotw`** - Shows the songs of the week. [More Info](/koodos#song-of-the-week)
@@ -129,31 +129,31 @@ title: Commands
 - **`!playsotw`** - Queue the songs of the week.
     - **Alias:** `psotw`
 ---
-- **`!sotm`** - Shows the songs of the month. [More Info](/koodos#song-of-the-month)
+- **`!sotm`** - Mostra as músicas do mês. [More Info](/koodos#song-of-the-month)
 ---
-- **`!playsotm`** - Queue the songs of the month.
+- **`!playsotm`** - Enfileirar as músicas do mês.
     - **Alias:** `psotm`
 ---
 
-## Settings
+## Configurações
 ---
-- **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
+- **`!settings`** - Use o formato de comando `!settings <option>` para ver mais informações sobre uma opção. [More Info](/settings)
     - **Alias:** `setting`
-    - **List of options:**
-      - [**`prefix`**](/settings#prefix) - Changes Rythm's prefix.
-      - [**`announcesongs`**](/settings#announce-songs) - Allows the bot to announce every new song playing.
-      - [**`preventduplicates`**](/settings#duplicate-song-prevention) - Prevents users from adding songs to the queue that are already in the queue.
-      - [**`blacklist`**](/settings#blacklist)- Allows you to blacklist channels you **don't** want Rythm to respond in.
-      - [**`maxqueuelength`**](/settings#max-queue-length) - Limits how many songs the queue can store.
-      - [**`maxusersongs`**](/settings#max-user-songs) - Limits how many songs the user can queue at one time.
-      - [**`djonly`**](/settings#dj-only-mode) - Sets the server to run in DJ only mode.
-      - [**`djrole`**](/settings#dj-role) - Changes which role is considered DJ. Roles named `DJ` will still work.
-      - [**`djplaylists`**](/settings#dj-only-playlists) - Allows only DJs to queue playlists.
-      - [**`reset`**](/settings#reset) - Resets all Rythm settings.
-    - **[Premium Only](https://rythm.fm/premium):**
-      - [**`defaultvolume`**](/settings#default-volume) - Sets the default volume that the bot will always start at.
-      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing. 
-      - [**`alwaysplaying`**](/settings#always-playing) - Sets Rythm to stay in your voice channel 24/7. 
+    - **Lista de opções:**
+      - [**`prefix`**](/settings#prefix) - Altera o prefixo de Rythm.
+      - [**`announcesongs`**](/settings#announce-songs) - Permite que o bot anuncie cada música nova tocando.
+      - [**`preventduplicates`**](/settings#duplicate-song-prevention) - Impede que os usuários adicionem músicas na fila que já estão na fila.
+      - [**`blacklist`**](/settings#blacklist)- Permite que você coloque na lista negra de canais que você **não** quer que Rythm responda.
+      - [**`maxqueuelength`**](/settings#max-queue-length) - Limita quantas músicas a fila pode armazenar.
+      - [**`maxusersongs`**](/settings#max-user-songs) - Limita quantas músicas o usuário pode fazer fila ao mesmo tempo.
+      - [**`djonly`**](/settings#dj-only-mode) - Define o servidor para executar apenas em DJ.
+      - [**`djrole`**](/settings#dj-role) - Mudanças qual papel é considerado DJ. Papéis chamados 'DJ' ainda funcionarão.
+      - [**`djplaylists`**](/settings#dj-only-playlists) - Permite apenas DJs para listas de reprodução em fila.
+      - [**`reset`**](/settings#reset) - Redefine todas as configurações do Rythm.
+    - **[Somente Premium](https://rythm.fm/premium):**
+      - [**`defaultvolume`**](/settings#default-volume) - Define o volume padrão em que o bot sempre começará.
+      - [**`autoplay`**](/settings#autoplay) - Alterna músicas de reprodução automática da lista de reprodução quando não há mais reprodução. 
+      - [**`alwaysplaying `**](/settings#always-playing) - Define Rythm para ficar em seu canal de voz 24/7. 
       
 
 
@@ -161,41 +161,41 @@ title: Commands
 
 ## [Premium](https://rythm.fm/premium)
 ---
-- **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythm.fm/premium?do)
-    - **Other Usages**:
-        - `!effects help` - Shows all available audio effects.
-        - `!effects clear` - Clears all audio effects.
+- **`!effects`** - Mostra os efeitos de áudio atuais.  [**Somente doador**](https://rythm.fm/premium?do)
+    - **Outros Usos**:
+        - `!effects help` - Mostra todos os efeitos de áudio disponíveis.
+        - `!effects clear` - Limpa todos os efeitos de áudio.
     - **Alias:** `effect`
 ---
-- **`!speed`** - Shows information about the current speed effect.  [**Donator Only**](https://rythm.fm/premium?do)
-    - **Other Usage**: `!speed <0.1 - 3>` - Modifies the playback speed.
+- **`!speed`** - Mostra informações sobre o efeito de velocidade atual.  [**Somente doador**](https://rythm.fm/premium?do)
+    - **Outros Usos**: `!speed <0.1 - 3>` - Modifica a velocidade de reprodução.
 ---
-- **`!bass`** - Shows information about the current bass-boost effect.  [**Donator Only**](https://rythm.fm/premium?do)
-    - **Other Usage**: `!bass <1 - 5>` - Bass-boosts the current song.
+- **`!bass`** - Mostra informações sobre o efeito atual de aumento de graves.  [**Somente doador**](https://rythm.fm/premium?do)
+    - **Outros Usos**: `!bass <1 - 5>` - adicionar grave a música atual.
 ---
-- **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!nightcore`** - Alterna o efeito nightcore.  [**Somente doador**](https://rythm.fm/premium?do)
 ---
-- **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!slowed`** - Alterna o efeito lento.  [**Somente doador**](https://rythm.fm/premium?do)
 ---
-- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythm.fm/premium?do)
-    - **Other Usage:** `!volume <1-200>` - Changes the current volume.
+- **`!volume`** - Saídas do volume atual.   [**Somente doador**](https://rythm.fm/premium?do)
+    - **Outros Usos:** `!volume <1-200>` - Altera o volume atual.
     - **Alias:** `vol`
 ---
 
-## Others
+## Outros
 ---
-- **`!prune`** - Deletes the bot's messages and commands.
+- **`!prune`** - Exclui as mensagens e comandos do bot.
     - **Aliases:** `purge`, `clean`
 ---
-- **`!invite`** - Shows Rythm's official links!
+- **`!invite`** - apresenta Rythm's links oficiais!
     - **Alias:** `links`
 ---
-- **`!info`** - Shows information about Rythm!
+- **`!info`** - Mostra informações sobre Rythm!
 ---
-- **`!shard`** - Checks the server shard your server is in.
+- **`!shard`** - Verifica o fragmento do servidor em que seu servidor está.
     - **Alias:** `debug`
 ---
-- **`!ping`** - Checks the bot's response time to Discord.
+- **`!ping`** - Verifica o tempo de resposta do bot para o Discord.
 ---
-- **`!aliases`** - Lists all command aliases.
+- **`!aliases`** - Lista todos os codinomes de comando.
 ---
